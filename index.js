@@ -6,7 +6,7 @@ var https = require('https');
 
 var appName = process.env.APP_NAME || 'dev';
 var apiMount = process.env.API_MOUNT || '/parse';
-var dashboardMount = process.env.DASHBOARD_MOUNT || '/dashboard';
+var dashboardMount = process.env.DASHBOARD_MOUNT || '/';
 var port = process.env.PORT || 9000;
 var serverURL = process.env.SERVER_URL || 'https://localhost:' + port + apiMount;
 var appId = process.env.APP_ID || 'myAppId';
