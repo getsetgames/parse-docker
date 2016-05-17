@@ -19,6 +19,9 @@ RUN npm install \
 
 RUN ./generate-cert.sh
 
-EXPOSE 9000 27017
+ENV HTTP_PORT 80
+ENV HTTPS_PORT 443
+
+EXPOSE 80 443 27017
 
 ENTRYPOINT ["/usr/bin/supervisord"]
