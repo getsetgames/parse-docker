@@ -1,0 +1,17 @@
+{
+  "name": "parse-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "parse-dashboard": "^1.0.11",
+    "parse-server": "^2.2.10"
+  }
+}

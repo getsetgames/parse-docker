@@ -1,0 +1,6 @@
+node_modules
+logs
+server.crt
+server.key
+.DS_Store
+mongodb
