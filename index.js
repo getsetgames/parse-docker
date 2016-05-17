@@ -5,12 +5,12 @@ var fs = require('fs');
 var http = require('http');
 var https = require('https');
 
-var appName = process.env.APP_NAME || 'dev';
-var apiMount = process.env.API_MOUNT || '/parse';
+var appName = process.env.APP_NAME || 'myApp';
+var appMount = process.env.APP_MOUNT || '/parse';
 var dashboardMount = process.env.DASHBOARD_MOUNT || '/';
 var httpPort = process.env.HTTP_PORT || 8080;
 var httpsPort = process.env.HTTPS_PORT || 9000;
-var appURL = process.env.SERVER_URL || 'https://localhost:' + httpsPort + apiMount;
+var appURL = process.env.SERVER_URL || 'https://localhost:' + httpsPort + appMount;
 var dashboardURL = process.env.DASHBOARD_URL || 'https://localhost:' + httpsPort + dashboardMount;
 var appId = process.env.APP_ID || 'myAppId';
 var masterKey = process.env.MASTER_KEY || 'myMasterKey';
@@ -37,15 +37,15 @@ var dashboard = new ParseDashboard({
     ],
     "users": [
         {
-            "user":"user",
-            "pass":"password"
+            "user": process.env.DASHBOARD_USERNAME || "username",
+            "pass": process.env.DASHBOARD_PASSWORD || "password"
         }
     ]
 });
 
 var httpsApp = express();
 
-httpsApp.use(apiMount, api);
+httpsApp.use(appMount, api);
 httpsApp.use(dashboardMount, dashboard);
 
 var options = {
