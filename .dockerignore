@@ -3,6 +3,5 @@ logs
 server.crt
 server.key
 .DS_Store
-mongodb
 
 .vscode
