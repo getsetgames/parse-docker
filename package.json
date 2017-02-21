@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.1",
-    "parse-dashboard": "^1.0.24",
-    "parse-server": "^2.3.3"
+    "parse-dashboard": "^1.0.25",
+    "parse-server": "^2.3.5"
   }
 }
