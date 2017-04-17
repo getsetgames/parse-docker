@@ -1,0 +1,14 @@
+sudo: required
+
+language: ruby
+
+services:
+  - docker
+
+before_install:
+  - docker build -t getsetgames/parse-docker .
+  - docker run -d -p 80:80 -p 443:443 -p 27017:27017 --name getsetgames_parse_docker getsetgames/parse-docker
+  - docker ps -a
+
+script:
+  - docker exec -it getsetgames_parse_docker npm test
