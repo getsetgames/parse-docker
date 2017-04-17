@@ -1,8 +1,6 @@
 var request = require('request');
 
 describe("hello", function () {
-    "use strict";
-
     it("says hello to the world", (done) => {
         var options = {
             method: 'POST',
@@ -10,10 +8,11 @@ describe("hello", function () {
             headers: {
                 'x-parse-rest-api-key': 'myMasterKey',
                 'x-parse-application-id': 'myAppId'
-            }
+            },
+            rejectUnauthorized: false
         };
 
-        request(options, function (error, response, body) {
+        request(options, function (error, httpResponse, body) {
             var jsonResponse = JSON.parse(body);
             expect(httpResponse.statusCode).toBe(200);
             expect(jsonResponse.result).toBe("Hi");
