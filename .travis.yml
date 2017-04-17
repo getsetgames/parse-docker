@@ -14,4 +14,4 @@ script:
   - docker exec -it getsetgames_parse_docker npm test
 
 after_script:
-- docker rm -f getsetgames_parse_docker
+  - docker rm -f getsetgames_parse_docker
