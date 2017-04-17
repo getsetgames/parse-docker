@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "express": "^4.15.2",
     "parse-dashboard": "^1.0.25",
     "parse-server": "^2.3.8"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3"
   }
 }
