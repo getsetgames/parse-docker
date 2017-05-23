@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2",
-    "parse-dashboard": "^1.0.25",
-    "parse-server": "^2.3.8"
+    "express": "^4.15.3",
+    "parse-dashboard": "^1.0.26",
+    "parse-server": "^2.4.1"
   },
   "devDependencies": {
     "jasmine": "^2.5.3"
