@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "^4.15.4",
     "parse-dashboard": "^1.1.0",
     "parse-server": "^2.5.3"
   },
