@@ -13,9 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "parse-dashboard": "^1.1.0",
-    "parse-server": "^2.6.3",
-    "snyk": "^1.45.0"
+    "parse-dashboard": "^1.1.2",
+    "parse-server": "^2.6.5",
+    "snyk": "^1.47.0"
   },
   "devDependencies": {
     "jasmine": "^2.5.3"
