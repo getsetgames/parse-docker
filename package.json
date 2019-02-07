@@ -14,8 +14,8 @@
   "dependencies": {
     "express": "^4.16.2",
     "parse-dashboard": "^1.1.2",
-    "parse-server": "^2.7.1",
-    "snyk": "^1.55.1"
+    "parse-server": "^3.1.0",
+    "snyk": "^1.124.1"
   },
   "devDependencies": {
     "jasmine": "^2.5.3"
