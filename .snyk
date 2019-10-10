@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -16,3 +16,12 @@ patch:
         patched: '2017-09-28T06:06:08.509Z'
     - parse-server > parse-server-simple-mailgun-adapter > mailgun-js > debug:
         patched: '2017-09-28T06:06:08.509Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-10T01:08:40.026Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-10T01:08:40.026Z'
+    - parse-server > @parse/simple-mailgun-adapter > mailgun-js > proxy-agent > https-proxy-agent:
+        patched: '2019-10-10T01:08:40.026Z'
+    - parse-server > @parse/simple-mailgun-adapter > mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-10T01:08:40.026Z'
