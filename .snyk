@@ -32,3 +32,48 @@ patch:
         patched: '2020-03-04T23:05:45.922Z'
     - snyk > snyk-nuget-plugin > lodash:
         patched: '2020-03-04T23:05:45.922Z'
+  SNYK-JS-LODASH-567746:
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - parse-server > @parse/s3-files-adapter > aws-sdk > xmlbuilder > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - parse-server > @parse/s3-files-adapter > aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - parse-server > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - parse-server > @parse/push-adapter > @parse/node-gcm > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - parse-server > winston > async > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - parse-server > @parse/simple-mailgun-adapter > mailgun-js > async > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-07T01:05:35.285Z'
