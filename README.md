@@ -10,11 +10,11 @@ A docker container that runs [parse-server](https://github.com/ParsePlatform/par
 
 ## Run it
 
-`docker run -d -p 80:80 -p 443:443 -p 27017:27017 parse-docker`
+`docker run -d -p 8080:8080 -p 9000:9000 -p 27017:27017 parse-docker`
 
 ## Open the dashboard
 
-`open https://localhost/`
+`open https://0.0.0.0:9000/` or `open https://<IP_HOST>:9000/`
 
 The default username/password is "username" and "password". These can be set using environment variables in [Dockerfile](https://github.com/getsetgames/parse-docker/blob/master/Dockerfile).
 
