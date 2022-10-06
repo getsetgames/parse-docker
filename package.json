@@ -15,7 +15,7 @@
     "express": "^4.16.2",
     "parse-dashboard": "^1.1.2",
     "parse-server": "^4.3.0",
-    "snyk": "^1.298.0"
+    "snyk": "^1.996.0"
   },
   "devDependencies": {
     "jasmine": "^2.5.3"
